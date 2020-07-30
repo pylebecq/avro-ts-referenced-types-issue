@@ -1,0 +1,15 @@
+{
+  "name": "avro-ts-referenced-types-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Pierre-Yves Lebecq",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "generate-avro-types": "avro-ts avro/*.avsc --output-dir src/__generated__/"
+  },
+  "devDependencies": {
+    "@ovotech/avro-ts-cli": "^2.2.4",
+    "typescript": "^3.9.7"
+  }
+}
